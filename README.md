@@ -29,6 +29,17 @@ Need to add a game? Starting from scratch sucks, so just do some quick copypasta
 }
 ```
 
+## Development
+
+If you want to help with the development of this project, here are a few things you'll want to do.
+
+* Make sure Node.js and NPM are installed
+* `npm install`
+* `npm run watch`
+* `npm run server`
+
+At this point you'll be able to view your work at [http://localhost:8080/](http://localhost:8080/). With the watch script on all changes to the `static` `sass` or `lib` folders will trigger a new build.
+
 -----
 
 Developed by [Dave Widmer](http://davewidmer.net) using ES6 and [React.js](https://facebook.github.io/react/index.html).
