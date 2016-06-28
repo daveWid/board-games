@@ -19,5 +19,11 @@ export default [{
     rulesPDF: 'http://www.mayfairgames.com/files/supportfiles/mfg1830-rules-v1_0.pdf',
     mechanics: ['Auction/Bidding', 'Route/Network Building', 'Stock Holding', 'Tile Placement']
   }]
+}, {
+  owner: 'Dan',
+  games: []
+}, {
+  owner: 'Shaw',
+  games: []
 }];
 
