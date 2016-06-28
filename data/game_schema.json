@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "game_schema.json",
+  "type": "object",
+  "definitions": {
+    "game": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the game"
+        },
+        "description": {
+          "type": "string",
+          "description": "A short description of the game."
+        },
+        "playersMin": {
+          "type": "integer",
+          "description": "The minimum number of players required",
+          "minimum": 1
+        },
+        "playersMax": {
+          "type": "integer",
+          "description": "The maximum number of players allowed"
+        },
+        "playTimeQuick": {
+          "type": "integer",
+          "description": "The amount of time it will take to play if the game is quick (in minutes)"
+        },
+        "playTimeLong": {
+          "type": "integer",
+          "description": "The amount of time it will take to play if the game runs long (in minutes)"
+        },
+        "rulesPDF": {
+          "type": "string",
+          "description": "A link to the PDF of the rules",
+          "format": "uri"
+        },
+        "mechanics": {
+          "type": "array",
+          "description": "A list of game mechanics",
+          "uniqueItems": true,
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": ["name",
+                   "description",
+                   "playersMin",
+                   "playersMax",
+                   "playTimeQuick",
+                   "playTimeLong"]
+    }
+  },
+  "properties": {
+    "owner": {
+      "type": "string",
+      "description": "The name of the user who owns this set of games"
+    },
+    "games": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/game"  }
+    }
+  },
+  "required": ["owner", "games"]
+}
