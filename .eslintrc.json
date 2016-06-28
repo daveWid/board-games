@@ -4,29 +4,16 @@
     "browser": true
   },
   "rules": {
-    "indent": [
-      "error",
-      2
-    ],
+    "indent": ["error", 2],
     "eqeqeq": "warn",
     "no-empty": "warn",
-    "one-var-declaration-per-line": [
-      "error",
-      "always"
-    ],
-    "comma-dangle": [
-      "error",
-      "never"
-    ],
-    "brace-style": [
-      "error",
-      "stroustrup"
-    ],
-    "func-names": "off"
-  },
-  "globals": {
-    "$": true,
-    "jv": true,
-    "jvk": true
+    "one-var-declaration-per-line": ["error", "always"],
+    "comma-dangle": ["error","never"],
+    "brace-style": ["error", "stroustrup"],
+    "func-names": "off",
+    "object-shorthand": ["error", "properties"],
+    "arrow-body-style": "off",
+    "react/prefer-stateless-function": "off",
+    "react/prop-types": "off"
   }
 }
