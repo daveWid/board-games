@@ -35,9 +35,9 @@
         "description": "A link to the PDF of the rules",
         "format": "uri"
       },
-      "mechanics": {
+      "tags": {
         "type": "array",
-        "description": "A list of game mechanics",
+        "description": "A list of tags that help categorize this game",
         "uniqueItems": true,
         "items": {
           "type": "string"
