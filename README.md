@@ -25,7 +25,8 @@ Need to add a game? Starting from scratch sucks, so just do some quick copypasta
   playTimeQuick: ,
   playTimeLong: ,
   rulesPDF: '',
-  mechanics: []
+  mechanics: [],
+  owner: ''
 }
 ```
 
