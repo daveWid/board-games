@@ -88,5 +88,114 @@ export default [{
   rulesPDF: 'https://images-cdn.fantasyflightgames.com/filer_public/11/c6/11c61988-bb60-428f-b614-9c3a952f070b/cosmic-encounter-rulebook.pdf',
   tags: ['Bluffing', 'Hand Management', 'Take That'],
   owner: 'Dave'
+}, {
+  name: 'Dead of Winter',
+  description: 'In Dead of Winter, players are a colony of survivors trying to survive a hazardous winter in the aftermath of the zombie apocalypse.  The colony has an objective they are trying to complete, but each player also controls a group of survivors that has a secret objective.  Often this secret objective requires that a player help complete the colony objective. Only players who have completed their secret objective when the game ends will win. The game can end in a variety of ways: If the morale track reaches 0, if the round track reaches 0, or if the main objective is completed.',
+  playersMin: 2,
+  playersMax: 5,
+  playTimeQuick: 60,
+  playTimeLong: 90,
+  rulesPDF: 'http://www.plaidhatgames.com/images/games/dead-of-winter/rules.pdf',
+  tags: ['Area Movement', 'Co-op', 'Dice Rolling', 'Hand Management', 'Storytelling', 'Voting'],
+  owner: 'Dave'
+}, {
+  name: 'Smash Up',
+  description: 'The "shufflebuilding" game Smash Up starts with a simple premise: Take the twenty-card decks of two factions, shuffle them into a forty-card deck, then compete to smash more Bases than your opponents! Each faction brings a different game mechanism into play – pirates move cards, zombies bring cards back from the discard pile, dinosaurs have huge power – and every combination of factions brings a different play experience.',
+  playersMin: 2,
+  playersMax: 4,
+  playTimeQuick: 30,
+  playTimeLong: 45,
+  rulesPDF: 'https://www.alderac.com/smashup/files/2012/06/AEG-SU-Rulebook.pdf',
+  tags: ['Hand Management'],
+  owner: 'Dave'
+}, {
+  name: 'Love Letter',
+  description: 'In the wake of the queen’s arrest, all the eligible young men of Tempest (and many not so young) seek to woo Princess Annette. Unfortunately, she has locked herself in the palace, and everyone must rely on those within the palace to bring their romantic letters to her. Will yours reach her first?',
+  playersMin: 2,
+  playersMax: 4,
+  playTimeQuick: 15,
+  playTimeLong: 20,
+  rulesPDF: 'https://www.alderac.com/tempest/files/2012/09/Love_Letter_Rules_Final.pdf',
+  tags: ['Hand Management', 'Player Elimination'],
+  owner: 'Dave'
+}, {
+  name: 'King of Tokyo',
+  description: 'In King of Tokyo, you play mutant monsters, gigantic robots, and strange aliens—all of whom are destroying Tokyo and whacking each other in order to become the one and only King of Tokyo.',
+  playersMin: 2,
+  playersMax: 6,
+  playTimeQuick: 30,
+  playTimeLong: 45,
+  rulesPDF: 'http://iellogames.com/downloads/KOT2-rulebook_EN.pdf',
+  tags: ['Card Drafting', 'Dice Rolling', 'Player Elimination', 'Press Your Luck'],
+  owner: 'Dave'
+}, {
+  name: 'Welcome to the Dungeon',
+  description: 'During each round of Welcome to the Dungeon, players bid to see who gets to take a solitary hero into the dungeon with some combination of equipment. On your turn, you can either add monsters to the dungeon, remove equipment from the hero, or drop out of the bidding. The last player in the bidding takes the adventurer into the dungeon and confronts all the monsters that have been placed this round, with what little equipment the adventurer has left.',
+  playersMin: 2,
+  playersMax: 4,
+  playTimeQuick: 15,
+  playTimeLong: 30,
+  rulesPDF: 'http://iellogames.com/downloads/WelcomeDungeon_rules.pdf',
+  tags: ['Memory', 'Player Elimination', 'Press Your Luck'],
+  owner: 'Dave'
+}, {
+  name: 'Betrayal at the House on the Hill',
+  description: 'In Betrayal at House on the Hill, each player chooses an explorer to investigate a creepy old house. As you explore the house, you discover new rooms. Each time you enter a new room, you might find something... or something might find you. Explorers change over the course of the game (for better or worse), depending on how they deal with the house’s surprises. The house is different each time you build it.',
+  playersMin: 3,
+  playersMax: 6,
+  playTimeQuick: 45,
+  playTimeLong: 60,
+  rulesPDF: 'http://media.wizards.com/2015/rules/betrayal_rules.pdf',
+  tags: ['Co-op', 'Exploration', 'Player Elimination', 'Role Playing'],
+  owner: 'Dan | Dave'
+}, {
+  name: 'Force and Destiny',
+  description: 'With its complete, learn-as-you-go adventure, players can open the box, ignite their lightsabers, and explore their destinies as Force users in the Star Wars galaxy. Pre-generated character folios keep the rules right at your fingertips, while custom dice and an exciting narrative gameplay system advance your story with every roll.',
+  playersMin: 2,
+  playersMax: 5,
+  playTimeQuick: 90,
+  playTimeLong: 300,
+  rulesPDF: '',
+  tags: ['Dice Rolling', 'Role Playing', 'Star Wars'],
+  owner: 'Dave'
+}, {
+  name: '7 Wonders',
+  description: 'Lead one of the seven great cities of the Ancient world. Exploit the natural resources of your lands, take part in the eternal march of progress, develop your commercial relationships and assert your military might. Leave your mark in the history of civilization by building an architectural marvel that will transcend the ages to come.',
+  playersMin: 3,
+  playersMax: 7,
+  playTimeQuick: 30,
+  playTimeLong: 60,
+  rulesPDF: 'https://images-cdn.asmodee.us/filer_public/74/1e/741ee87f-1522-4432-8d67-eedf389024a4/seven01_rules.pdf',
+  tags: ['Deck Building'],
+  owner: 'Dave'
 }];
 
+/**\/
+, {
+  name: '',
+  description: '',
+  playersMin: ,
+  playersMax: ,
+  playTimeQuick: ,
+  playTimeLong: ,
+  rulesPDF: '',
+  tags: [],
+  owner: 'Dave'
+}
+
+Survive: 30th Anniversary
+Tichu
+Fairytale Gloom
+Star Realms
+Epic
+Paperback
+Resistance Avalon
+Hanabi
+Coup
+Fluxx
+Dixit
+Splendor
+Force and Destiny
+Sushi Go
+Zombie Dice
+/**/
