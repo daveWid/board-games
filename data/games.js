@@ -168,7 +168,18 @@ export default [{
   rulesPDF: 'https://images-cdn.asmodee.us/filer_public/74/1e/741ee87f-1522-4432-8d67-eedf389024a4/seven01_rules.pdf',
   tags: ['Deck Building'],
   owner: 'Dave'
-}];
+}]
+, {
+  name: 'Chronicle',
+  description: 'An irregular trick taking game where various individual abilities of persons forming history are tangled together.',
+  playersMin: 3,
+  playersMax: 6,
+  playTimeQuick: 30,
+  playTimeLong: 30,
+  rulesPDF: 'http://www.zmangames.com/uploads/4/7/1/7/47170931/en-chronicle-rules.pdf',
+  tags: ["Set Collection, Trick-Taking"],
+  owner: 'Dan'
+};
 
 /**\/
 , {
@@ -180,7 +191,7 @@ export default [{
   playTimeLong: ,
   rulesPDF: '',
   tags: [],
-  owner: 'Dave'
+  owner: 'YourNameHere'
 }
 
 Survive: 30th Anniversary
