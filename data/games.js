@@ -168,8 +168,7 @@ export default [{
   rulesPDF: 'https://images-cdn.asmodee.us/filer_public/74/1e/741ee87f-1522-4432-8d67-eedf389024a4/seven01_rules.pdf',
   tags: ['Deck Building'],
   owner: 'Dave'
-}]
-, {
+}, {
   name: 'Chronicle',
   description: 'An irregular trick taking game where various individual abilities of persons forming history are tangled together.',
   playersMin: 3,
@@ -177,9 +176,29 @@ export default [{
   playTimeQuick: 30,
   playTimeLong: 30,
   rulesPDF: 'http://www.zmangames.com/uploads/4/7/1/7/47170931/en-chronicle-rules.pdf',
-  tags: ["Set Collection, Trick-Taking"],
+  tags: ["Set Collection", "Trick-Taking"],
   owner: 'Dan'
-};
+}, {
+  name: 'Anomia',
+  description: 'Anomia plays off the fact that our minds are positively brimming with all sorts of random information; sure, under normal circumstances, it\'s easy to give an example of a frozen food or a dog breed, but you\'ll find that your brain works a little differently under pressure!',
+  playersMin: 3,
+  playersMax: 6,
+  playTimeQuick: 30,
+  playTimeLong: 30,
+  rulesPDF: 'http://www.anomiapress.com/uploads/2/1/8/7/2187614/anomia_directions.pdf',
+  tags: ['Word Game', 'Pattern Recognition'],
+  owner: 'Dan'
+}, {
+  name: 'Settlers of Catan',
+  description: 'In Catan , players try to be the dominant force on the island of Catan by building settlements, cities, and roads.',
+  playersMin: 3,
+  playersMax: 4,
+  playTimeQuick: 60,
+  playTimeLong: 120,
+  rulesPDF: 'http://www.catan.com/en/download/?SoC_rv_Rules_091907.pdf',
+  tags: ['Dice Rolling', 'Hand Management', 'Modular Board', 'Route/Network Building', 'Trading'],
+  owner: 'Dan'
+}];
 
 /**\/
 , {
